@@ -20,7 +20,7 @@ try
         string conteudoZPL = File.ReadAllText(arquivoZPL, Encoding.UTF8);
 
         // Enviar o conteúdo para a impressora
-        RawPrinterHelper.SendStringToPrinter("NomeDaImpressora", conteudoZPL);
+        RawPrinterHelper.SendStringToPrinter("ELGIN L42Pro", conteudoZPL);
 
         // Obter o nome do arquivo apenas
         string nomeArquivo = Path.GetFileName(arquivoZPL);
